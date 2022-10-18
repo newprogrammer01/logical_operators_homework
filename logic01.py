@@ -13,7 +13,9 @@ def main(a,b,c):
     else:
         return "False"
     
-print(main(-6,5,4))
+print(main(6,5,1))
+
+
 
 
 
