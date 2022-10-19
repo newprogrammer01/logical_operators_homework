@@ -7,14 +7,16 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    if a>0 and b>0:
+    if a>0 and b>0 and a!=0:
      return ("False")
-    if a<0 and b<0:
+    if a<0 and b<0 and a!=0:
       return ("True")
-    if a>0 and b<0:
+    if a>0 and b<0 and a!=0:
       return ("False")
-    if a<0 and b>0:
+    if a<0 and b>0  and a!=0:
       return ("False")
-print(main(-3,-5))
+print(main(-5,-5))
+
+
 
 
