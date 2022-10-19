@@ -10,12 +10,16 @@ def main(a,b,c):
     """
     if a<b and b<c:
         return ("True")
-  
+                        
     if c>b and b>a:
         return ("True")
     else: 
         return ("False")
-print(main(3,-6,5))
+print(main(-3,0,5))
+
+
+
+
 
 
 
