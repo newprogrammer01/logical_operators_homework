@@ -10,8 +10,8 @@ def main(a):
     x1=a//10
     x2=a%10
     x3=(x1)+(x2)
-    return (a>9 and a<100 and (x3)%2==1) 
-print(main(45))
+    return (a>9 and a<100 and (x3)%2==0) or (a<-9 and -100<a and (x3)%2==0) 
+print(main(28))
 
 
 
