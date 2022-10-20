@@ -6,6 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return((a<=-10 and a>-100 and a%2==0)  or (a>=10 and 100>a  and a%2==0))
+    return (a<=-10 and a>-100 and a%2==0)  or (a>=10 and 100>a  and a%2==0)
 
-print(main(25))
+print(main(10))
+
+
