@@ -8,14 +8,9 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    if a<b and b<c:
-        return ("True")
-                        
-    if c>b and b>a:
-        return ("True")
-    else: 
-        return ("False")
-print(main(-3,0,5))
+    return (a<b and b<c) or (c<b and b<a)
+print(main(64,0,-98))
+
 
 
 
