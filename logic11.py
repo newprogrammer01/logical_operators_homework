@@ -9,3 +9,6 @@ def main(a):
 
     return (100<=a<1000 and a%1==0) or (-1000<a<=-100 and a%1==0)
 print(main(-620))
+
+
+
