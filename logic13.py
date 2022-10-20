@@ -6,4 +6,9 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    if (a<=-10 and a>-100 and a%2==0)  or (a>=10 and 100>a  and a%2==0):
+     return("True")
+    else:
+     return("False")
+
+print(main(-46))
