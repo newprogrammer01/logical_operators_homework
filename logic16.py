@@ -6,4 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return 10_000<=a and a<100_000 and a%1==0
+print(main(12345))
