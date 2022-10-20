@@ -7,10 +7,6 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    c=a%2
-    d=a%2
-    if c>0 and d>0:
-       return ("False")
-    if c==0 and d==0:
-        return ("True")
-print(main(5,4))
+    return a%2==0 and b%2==0
+print(main(56,45))
+
