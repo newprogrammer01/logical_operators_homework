@@ -6,7 +6,9 @@ def main(a):
     Returns:
         bool: answer
     """
-    return ( a>=10 and 100>=a and a%1==0)
-print(main(50.3))
+    return ( (a>=10 and 100>=a) or  (a>=-100 and a<=-10) and a%1==0)
+
+print(main(50))
+
 
 
