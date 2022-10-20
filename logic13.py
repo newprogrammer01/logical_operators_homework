@@ -6,11 +6,13 @@ def main(a):
     Returns:
         bool: answer
     """
+
     x1=a//10
     x2=a%10
-    x3=x1+x2
-    return a>=10 and a<100 and x3%2==1
-print(main(25))
+    x3=(x1)+(x2)
+    return (a>9 and a<100 and (x3)%2==1) 
+print(main(45))
+
 
 
     
