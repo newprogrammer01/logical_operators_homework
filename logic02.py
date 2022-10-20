@@ -8,7 +8,9 @@ def main(a,b):
         bool: answer
     """
     if a>0 and b>0:
-        return ('True')
+        return "True"
     else:
-        return ("False")
-print(main(3,-6))
+        return "False"
+print(main(-6,-5))
+
+
