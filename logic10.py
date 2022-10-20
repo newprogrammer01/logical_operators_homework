@@ -9,3 +9,4 @@ def main(a):
     return ( a>=10 and 100>=a and a%1==0)
 print(main(50.3))
 
+
